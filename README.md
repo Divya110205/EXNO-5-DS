@@ -182,7 +182,8 @@ plt.show()
 act=['eat','sleep','work','play']
 slices=[3,7,8,6]
 color=['r','y','g','b']
-plt.pie(slices,labels=act,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,autopct='%1.1f%%')
+plt.pie(slices,labels=act,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,
+autopct='%1.1f%%')
 plt.legend()
 plt.show()
 ```
